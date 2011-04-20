@@ -1,6 +1,12 @@
+== Introduction ==
+
+This software tries to implement (currently undocumented) Google Speech API, using CMU Sphinx's pocketsphinx gstreamer plugin as the recognizer backend.
+
+Google Speech API is discussed here: http://mikepultz.com/2011/03/accessing-google-speech-api-chrome-11/
+
 == Prerequisites ==
 
-Install Sinatra, .. [TODO]
+Install Ruby, Sinatra, .. [TODO]
 
 Create out/ directory for logging request data:
 
