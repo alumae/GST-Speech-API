@@ -1,0 +1,23 @@
+== Prerequisites ==
+
+Install Sinatra, .. [TODO]
+
+== Starting server ==
+
+ruby speech-api.rb
+
+
+== Using server ==
+
+Create test.flac file in 16kHz, mono
+
+Send it to server:
+
+curl -v -X POST --data-binary @test.flac -H "Content-Type: audio/x-flac; rate=16000"  http://localhost:4567/recognize
+
+
+
+
+
+
+
