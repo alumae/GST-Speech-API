@@ -6,6 +6,8 @@ Google Speech API is discussed here: http://mikepultz.com/2011/03/accessing-goog
 
 == Prerequisites ==
 
+Install pocketsphinx, with its gstreamer plugin.
+
 Install Ruby, Sinatra, .. [TODO]
 
 Create out/ directory for logging request data:
@@ -13,6 +15,12 @@ Create out/ directory for logging request data:
 mkdir out
 
 == Starting server ==
+
+Add local lib directory (where CMU Sphinx is probably installed) to GST search path:
+
+export GST_PLUGIN_PATH=/usr/local/lib
+
+Start server:
 
 ruby speech-api.rb
 
