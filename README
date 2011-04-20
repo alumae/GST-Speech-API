@@ -2,10 +2,13 @@
 
 Install Sinatra, .. [TODO]
 
+Create out/ directory for logging request data:
+
+mkdir out
+
 == Starting server ==
 
 ruby speech-api.rb
-
 
 == Using server ==
 
